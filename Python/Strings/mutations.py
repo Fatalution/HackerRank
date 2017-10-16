@@ -1,5 +1,5 @@
 def mutate_string(string, position, character):
-    mutatedString = string[:position - 1] + character + string[position:]
+    mutatedString = string[:position] + character + string[position+1:]
     return mutatedString
 
 s = raw_input()
